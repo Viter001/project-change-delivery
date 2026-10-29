@@ -37,6 +37,8 @@
 
 Feedback 需要改变规划／规范时，新建或关联 Question：例如 FB-082 等待 Q-023 裁决。两者各有独立身份与 GitHub Issue，正文保留关联链接；不复制为相同任务，不把 Feedback 自动搬成 Question。Question 被裁决后继续 Feedback 的整改与复验，不能联动自动关闭两条。关联项参与基线比较，远程 URL 未生成前保留本地编号，不编造远程链接。
 
+本地当前清单是详情条目的投影视图，不是独立 Issue；按 localId 定位详情，仅同步一次。成功落地后同时刷新清单状态，归档索引不参与新建检测。DISCUSSION-LOG 与 DEVLOG 不自动转为或上传为 Issue。
+
 ## 本地视图与机器记录
 
 用户分别维护 QUESTIONS.md 和 FEEDBACK.md，不额外建立重复总表。每条保留稳定 localId、类别、GitHub URL、业务阶段、远程开关状态和正文。同步元数据放 `.issue-sync/state.json`，每条保存：

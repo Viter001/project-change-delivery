@@ -49,3 +49,7 @@ GraphFlow context 已对新项目显式调用，返回空上下文，符合新�
 ## 2026-10-26 Question／Feedback 分类定稿
 
 用户确认 Question 是重大变更和冲突裁决，原会议 Review 改称 Feedback。入口与所有参考统一 QUESTIONS.md／FEEDBACK.md，新增 Q／FB 编号及旧 REVIEW 别名保留；PR Review 仅指代码评审。Issue 同步增加 decision／meeting-feedback 路由、独立阶段、待分类区和分类迁移约束；不再强制重复 ISSUES 总表。仅更新规则，未迁移来源项目或真实 GitHub 标签。
+
+## 2026-10-29 v0.2.0 实际使用反馈
+
+PICTURE-BOOK-STUDIO 的记录暴露 Question 按对话增长、DEVLOG 重复和 Feedback 缺少首屏清单。用户确认新增 DISCUSSION-LOG 并迭代 v0.2。本版收紧 Q 门槛、Feedback 清单优先、成果与逐轮过程分离；只更新 skill，不迁移应用项目。已有 AGENTS.md 的 GraphFlow 3.x 修改属于用户原有工作，保留不混入提交。
