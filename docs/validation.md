@@ -123,3 +123,12 @@ quick_validate.py 通过；7 份分发 Markdown、11 条本地引用有效。默
 用户批准将原则精简稿定为 v0.3.0 并覆盖本机安装。已统一 VERSION、skill 版本、README、TRYOUT 和 RELEASE-NOTES，生成 v0.3.0 ZIP。沿用 docs/principles-trial.md 的六场景测试及复核，本轮仅修改版本与分发说明。
 
 源码及安装目录 quick_validate.py 均通过；ZIP CRC 与 12 个文件逐字节核对通过。旧安装备份到 dist/installed-backup-20261103-102023，覆盖后 9 个 skill 文件的 SHA-256 与源目录逐一一致，文件总数一致。安装位置为 C:/Users/gaozh/.codex/skills/project-change-delivery。仅本地安装和打包，未推送或创建远程 Release；既有 AGENTS.md 和 docs/project-views-pilot.md 改动未纳入。
+
+
+## 2026-11-03 v0.3.0 视图配套规范补全
+
+用户指出仅有注意力原则不足，要求吸收业务试点的配套生成经验。核对试点维护说明和本仓库试验记录，新增按需参考 project-view-generation.md，定义页面、数据、准入、网络、来源快照、刷新、会话接续与验收职责。原试点业务资料和 DSH 专属分工保持隔离，未修改业务项目。本次交付是生成规范，未新增通用可执行生成器。
+
+独立代理只读场景复核：采用 skill 不自动建工作台；用户要求后交付配套；源变化需重核语义，零请求及待验收状态保留；损害尚未来临但当前需处理的风险可准入；未混入业务或模型专属规则。根据复核明确区分决策截止与损害发生时间。此为文档行为模拟，未新建真实项目页面或重跑试点浏览器。
+
+源码／安装结构校验通过，分发脚本完成相对链接、路径检查和 ZIP 完整性比对；v0.3.0 分发包含 13 文件。安装前备份 dist/installed-backup-20261103-103038，安装 10 个 skill 文件逐一哈希及数量核对。后续风险时间措辞调整再次同步核对。本轮未推送；既有 AGENTS.md 和 project-views-pilot.md 改动保留。

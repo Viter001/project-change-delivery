@@ -44,6 +44,7 @@ Question 管重要选择和冲突裁决；Feedback 管整改清单；DEVLOG 管�
 
 | 场景 | 指引 |
 | --- | --- |
+| 建立或刷新注意力、全景与关系视图 | [视图生成与维护](references/project-view-generation.md) |
 | 整理事项与讨论记录 | [管理记录](references/management-records.md) |
 | 建立管理载体、交付声明 | [交付与交接](references/delivery-and-handoff.md) |
 | 保存执行现场或接续资料 | [记录分层](references/record-layers.md) |
