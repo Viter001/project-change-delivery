@@ -16,6 +16,8 @@ description: Use when managing changes in an existing project, reconciling requi
 3. 记录用户沟通和工作推进，供事后复盘：讨论过程进 DISCUSSION-LOG，阶段成果进 DEVLOG，执行现场进 agent 记录。
 4. 整理问题／需求时保留用户提供的原始附件、草稿和来源文件，整理结果写入项目内对应管理文档；已授权的业务文件修改按任务执行。写前确认目标，必要时备份。
 
+设计或调整视图、沟通和协作流程时，先读 [注意力优先的设计哲学](references/design-philosophy.md)，据此判断新增流程的价值。
+
 ## 五条原则
 
 ### 1. 先看目标，再选下一步
