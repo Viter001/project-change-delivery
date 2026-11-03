@@ -5,7 +5,7 @@ description: Use when managing changes in an existing project, reconciling requi
 
 # 项目推进与变更交付
 
-本地试验版：原则精简稿（基于 0.2.0，尚未发布）。
+版本：0.3.0。
 
 以阶段成果推进项目，用证据说明进展，把人的注意力留给真正需要人的事项。适用于现有项目的推进、变更与接续；流程深度随影响、依赖和恢复成本调整。
 

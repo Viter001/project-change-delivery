@@ -116,3 +116,10 @@ quick_validate.py 通过；7 份分发 Markdown、11 条本地引用有效。默
 实际使用基线：PICTURE-BOOK-STUDIO 出现按讨论递增的 Q、逐轮 DEVLOG 与只有排错长条目的 Feedback。按新版规则文本推演：普通新增方向归规划并记 D；技术路线取舍保留 Q；整理文档与启动工作不新建 Q；FB-001 展示“已整改待用户复验”而非关闭；多个讨论轮引用同一 Q；DEVLOG 汇总阶段结果；GitHub 只同步详情一次。
 
 这是负责人基于真实记录的场景核对，尚未实测下一轮 agent 行为，不声称已证明消除冗余。未整理绘本工作室文件，未更新全局安装副本或远程 Release。AGENTS.md 既有用户改动保留在工作区，不混入本次提交。
+
+
+## 2026-11-03 v0.3.0 定版与本机安装
+
+用户批准将原则精简稿定为 v0.3.0 并覆盖本机安装。已统一 VERSION、skill 版本、README、TRYOUT 和 RELEASE-NOTES，生成 v0.3.0 ZIP。沿用 docs/principles-trial.md 的六场景测试及复核，本轮仅修改版本与分发说明。
+
+源码及安装目录 quick_validate.py 均通过；ZIP CRC 与 12 个文件逐字节核对通过。旧安装备份到 dist/installed-backup-20261103-102023，覆盖后 9 个 skill 文件的 SHA-256 与源目录逐一一致，文件总数一致。安装位置为 C:/Users/gaozh/.codex/skills/project-change-delivery。仅本地安装和打包，未推送或创建远程 Release；既有 AGENTS.md 和 docs/project-views-pilot.md 改动未纳入。
