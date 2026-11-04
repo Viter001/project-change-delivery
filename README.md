@@ -1,6 +1,6 @@
 # 项目变更管理与交付闭环
 
-`project-change-delivery` 是面向 AI agent 的项目协作 skill，当前版本 **0.4.0 试用版**。规则内容以中文为主，可用于软件、文档、内容与数据项目。
+`project-change-delivery` 是面向 AI agent 的项目协作 skill，当前版本 **0.4.1 试用版**。规则内容以中文为主，可用于软件、文档、内容与数据项目。
 
 ## 包含什么
 
@@ -11,6 +11,7 @@
 - 变更分级、相关验证、中文 Git 提交及原始材料保护。
 - QUESTIONS 管重要变更与裁决，FEEDBACK 管会议反馈与整改；PR Review 专指代码评审。
 - Question 只收录裁决，Feedback 清单优先；DEVLOG 汇总成果，DISCUSSION-LOG 记录逐轮过程，agent 实时日志单独存放。
+- 规划、规范与指南按主题维护当前正文；仅事实变化触发相关文件更新，历史与执行过程保留在对应记录。
 - 已有协作工具委派，以及代理中断后的接手续做。
 - 本地与 GitHub Issue 分类同步规程：去重、三方比较、冲突保留和失败恢复。
 
@@ -18,7 +19,7 @@
 
 ## 试用
 
-使用维护者提供的 `project-change-delivery-v0.4.0.zip`（远程 Release 以实际发布为准），解压后阅读 [TRYOUT.md](TRYOUT.md)。不要把整个源码仓库当作 skill 目录安装；使用压缩包内的 `project-change-delivery/` 文件夹。
+使用维护者提供的 `project-change-delivery-v0.4.1.zip`（远程 Release 以实际发布为准），解压后阅读 [TRYOUT.md](TRYOUT.md)。不要把整个源码仓库当作 skill 目录安装；使用压缩包内的 `project-change-delivery/` 文件夹。
 
 这是规则型 skill，不是同步程序或后台服务。GitHub 同步需要另外指定仓库、授权和可用工具；本版没有实测远程同步或跨宿主自动接手。四条执行规则含中文提交及验证要求，建议先在可恢复的测试项目试用。
 
