@@ -5,7 +5,7 @@ description: Use when managing changes in an existing project, reconciling requi
 
 # 项目推进与变更交付
 
-版本：0.4.1。
+版本：0.4.2。
 
 以阶段成果推进项目，用证据说明进展，把人的注意力留给真正需要人的事项。适用于现有项目的推进、变更与接续；流程深度随影响、依赖和恢复成本调整。
 
@@ -49,7 +49,7 @@ Question 管重要选择和冲突裁决；Feedback 管整改清单；DEVLOG 管�
 | 场景 | 指引 |
 | --- | --- |
 | 建立或刷新注意力、全景与关系视图 | [视图生成与维护](references/project-view-generation.md) |
-| 整理事项与讨论记录 | [管理记录](references/management-records.md) |
+| 新建、整理或更新管理文档 | [管理记录](references/management-records.md) 与 [文档版式](references/document-formats.md)，写前读取对应格式 |
 | 建立管理载体、交付声明 | [交付与交接](references/delivery-and-handoff.md) |
 | 保存执行现场或接续资料 | [记录分层](references/record-layers.md) |
 | 判断影响和验证范围 | [变更分级](references/change-classification.md) |

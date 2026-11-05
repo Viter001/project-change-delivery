@@ -1,6 +1,6 @@
 # 项目变更管理与交付闭环
 
-`project-change-delivery` 是面向 AI agent 的项目协作 skill，当前版本 **0.4.1 试用版**。规则内容以中文为主，可用于软件、文档、内容与数据项目。
+`project-change-delivery` 是面向 AI agent 的项目协作 skill，当前版本 **0.4.2 试用版**。规则内容以中文为主，可用于软件、文档、内容与数据项目。
 
 ## 包含什么
 
@@ -19,7 +19,7 @@
 
 ## 试用
 
-使用维护者提供的 `project-change-delivery-v0.4.1.zip`（远程 Release 以实际发布为准），解压后阅读 [TRYOUT.md](TRYOUT.md)。不要把整个源码仓库当作 skill 目录安装；使用压缩包内的 `project-change-delivery/` 文件夹。
+使用维护者提供的 `project-change-delivery-v0.4.2.zip`（远程 Release 以实际发布为准），解压后阅读 [TRYOUT.md](TRYOUT.md)。不要把整个源码仓库当作 skill 目录安装；使用压缩包内的 `project-change-delivery/` 文件夹。
 
 这是规则型 skill，不是同步程序或后台服务。GitHub 同步需要另外指定仓库、授权和可用工具；本版没有实测远程同步或跨宿主自动接手。四条执行规则含中文提交及验证要求，建议先在可恢复的测试项目试用。
 
