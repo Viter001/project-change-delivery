@@ -1,5 +1,7 @@
 # 0.4.2 朋友试用说明
 
+完整操作流程与文件职责见[使用手册](USER-GUIDE.md)。
+
 ## 安装与使用
 
 1. 解压，确认 `project-change-delivery/SKILL.md` 存在。

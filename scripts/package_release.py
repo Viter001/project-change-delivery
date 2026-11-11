@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 version = (ROOT / "VERSION").read_text(encoding="utf-8").strip()
 assert re.fullmatch(r"[0-9]+\.[0-9]+\.[0-9]+", version), "Invalid version"
 files = sorted((ROOT / "project-change-delivery").rglob("*.md"))
-files += [ROOT / name for name in ("TRYOUT.md", "VERSION", "RELEASE-NOTES.md")]
+files += [ROOT / name for name in ("USER-GUIDE.md", "TRYOUT.md", "VERSION", "RELEASE-NOTES.md")]
 assert ROOT / "project-change-delivery/SKILL.md" in files
 for path in files:
     assert path.resolve().is_relative_to(ROOT)
