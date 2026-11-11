@@ -22,4 +22,4 @@
 
 项目可以只在本地使用。在具备 GitHub 连接并获得同步授权时，agent 也可以按 [Issue 同步规程](project-change-delivery/references/issue-sync.md)上传、拉取或双向同步事项。
 
-更多使用场景见[试用指南](TRYOUT.md)，已验证的范围见[验证记录](docs/validation.md)。维护者可运行 `python scripts/package_release.py` 生成分发包。
+已验证的范围见[验证记录](docs/validation.md)。维护者可运行 `python scripts/package_release.py` 生成分发包。

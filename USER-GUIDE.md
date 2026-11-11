@@ -59,4 +59,4 @@
 
 ## 在下载包或仓库中找到说明
 
-[TRYOUT.md](TRYOUT.md) 提供可自行尝试的场景，[VERSION](VERSION) 标识当前版本，[RELEASE-NOTES.md](RELEASE-NOTES.md) 记录各版本变化。源码仓库中的 `docs/` 保存设计与试验依据，`scripts/package_release.py` 供维护者制作分发包。日常工作时，直接在业务项目会话使用已安装的技能即可。
+[VERSION](VERSION) 标识当前版本，[RELEASE-NOTES.md](RELEASE-NOTES.md) 记录各版本变化。源码仓库中的 `docs/` 保存设计与试验依据，`scripts/package_release.py` 供维护者制作分发包。日常工作时，直接在业务项目会话使用已安装的技能即可。
