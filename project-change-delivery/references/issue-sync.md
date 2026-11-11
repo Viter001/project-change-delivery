@@ -15,6 +15,10 @@
 | decision | QUESTIONS.md／Q | needs-decision、decided、implementing、done |
 | meeting-feedback | FEEDBACK.md／FB | todo、in-progress、needs-verification、done |
 
+上表的 category 是 Q／FB 路由。第二层 issueType 使用目标仓库已有的原生 Issue 类型。两层分别读取，同一 Feature 可属于任一组。只变更类型时保留身份、文件和业务阶段；仅有类型而无上层分类的未绑定条目进入待分类。
+
+支持类型读写且已有相应授权时，将 issueType 作为独立字段按下文三方比较和写后读回规程同步。旧基线缺该字段时先对账。区分已读取为空与接口未返回；能力或权限不足时保留已知值并报告该字段未同步。维护标签的授权只覆盖标签。
+
 阶段标签使用 phase: 前缀。仅更新 managedLabels，保留其他标签。缺标签或权限时报告，标签创建按授权处理。
 
 拉取先按真实身份绑定定位，再核对分类。未绑定且恰有一个分类才分流；缺失、多个或旧 review-feedback 分类保存待分类快照。已绑定分类改变时暂停该条写入，确认迁移后保留身份、旧编号别名、URL 和引用。旧 issueFile 配置备份后迁移，旧标签先确认语义。
@@ -27,7 +31,7 @@
 
 - 本地文件、localId、类别、阶段、关系、别名及待分类／迁移信息。
 - 真实远程 host、repository、number、URL 和可用稳定 ID。
-- 共同基线值：title、body、category、phase、relations、state、可用时的 stateReason。
+- 共同基线值：title、body、category、phase、relations、state、纳入同步的 issueType、可用时的 stateReason。
 - lastSyncedAt、逐字段结果、冲突快照与待执行操作。
 - 评论本地／远程 ID、作者、时间、正文或基线哈希。
 - 操作的 operationId、类型、目标、预期内容和结果状态。

@@ -5,7 +5,7 @@ description: Use when managing changes in an existing project, reconciling requi
 
 # 项目推进与变更交付
 
-版本：0.4.2。
+版本：0.5.0。
 
 以阶段成果推进项目，用证据说明进展，把人的注意力留给真正需要人的事项。适用于现有项目的推进、变更与接续；流程深度随影响、依赖和恢复成本调整。
 
@@ -34,7 +34,7 @@ description: Use when managing changes in an existing project, reconciling requi
 
 ### 4. 一个事实一个主记录，按读者组织
 
-Question 管重要选择和冲突裁决；Feedback 管整改清单；DEVLOG 管阶段成果；DISCUSSION-LOG 管实质对话轮次；agent 记录管恢复现场。其他位置引用主记录。复用等价载体，缺失的相关职责在具体项目内建立有用途、待填字段和已知事实的占位文件。原编号、来源和决定历史保持可追溯。
+Question 管重要选择和冲突裁决；Feedback 管整改清单；DEVLOG 管阶段成果；DISCUSSION-LOG 管实质对话轮次；agent 记录管恢复现场。Issue 先按 Q／FB 归类，再按项目使用的 Bug、Task、Feature 等类型细分。同一类型可以出现在两组。已决定推进的写下一步，留待观察的写复评条件。其他位置引用主记录。复用等价载体，缺失的相关职责在具体项目内建立有用途、待填字段和已知事实的占位文件。原编号、来源和决定历史保持可追溯。
 
 规划、规范、指南和 README 按主题维护当前有效正文，变化合入对应位置；日志才按时间追加。只更新职责内事实已改变的文件，不因“同步文档”遍历所有载体补进度。保留历史应使用明确的历史区、归档或可追溯版本，不能让旧结论与新规则并列为当前内容。写后核对同主题是否冲突、产品正文是否混入执行过程、其他文件是否重复展开主记录。具体边界见 [管理记录](references/management-records.md)。
 

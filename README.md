@@ -18,7 +18,7 @@
 
 ## 工作如何接续
 
-重要取舍记入 Questions，普通反馈进入整改清单。阶段成果、对话复盘和 agent 的运行记录各有入口，方便负责人看结果，也方便下一位 agent 接手时找到未完成的工作。变更交付时，agent 根据影响选择验证方式，区分已实现、已验证和已由用户验收。
+v0.5.0 的 Issue 清单先按 Questions（裁决）与 Feedback（反馈整改）分组，再按 Bug、Task、Feature 等类型筛选。每项写明下一步或复评条件。阶段成果、对话复盘和 agent 的运行记录各有入口，方便负责人看结果，也方便下一位 agent 接手时找到未完成的工作。变更交付时，agent 根据影响选择验证方式，区分已实现、已验证和已由用户验收。
 
 项目可以只在本地使用。在具备 GitHub 连接并获得同步授权时，agent 也可以按 [Issue 同步规程](project-change-delivery/references/issue-sync.md)上传、拉取或双向同步事项。
 
